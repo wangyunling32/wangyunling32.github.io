@@ -1,0 +1,600 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+<!-- Basic Page Needs
+================================================== -->
+<title>Home</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Mobile Specific Metas 
+================================================== -->
+<meta content="width=device-width,initial-scale=1" name="viewport">
+
+<!-- Favicons
+================================================== -->
+<link rel="shortcut icon" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+<!--fonts
+====================================================-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700%7cOswald:400,700" rel="stylesheet">
+<!--stylesheets
+====================================================-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">  
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/simpletextrotator.css"> 
+
+<!--[if lt IE 9]>
+	<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> 
+<script src="js/jquery.min.js"></script> <!-- JQUERY -->
+</head>
+<body>
+
+<!--FRONT PAGE/ SPLASH SCREEN SECTION-->
+
+<div class="loading-screen"></div>
+
+<div id="frontpage"> 
+	<div class="shadow-img"></div> 
+	<img src="images/front-image.jpg" class="front-img img-responsive" alt ="Front-image"><!--IMAGE FOR FRONT SCREEN-->
+	<h1>Welcome <span class="invert">to</span></h1><!--PROFILE NAME-->
+	<h3 class="invert" style="margin-top: -10px; margin-bottom: 10px;">王云玲的<span class="rotate">个人主页</span></h3> <!--SUBTITLE IN PROFILE-->
+	<div class="frontclick"><img src="images/click.png" alt="" class="img-responsive"><span class="pulse"></span></div>
+</div>
+<!--FRONT PAGE/ SPLASH SCREEN SECTION ENDS-->
+<!--container-->
+<div class="container">
+	<div id="content" class="row hidden">
+		<div class="col-sm-4">
+			<!--namecard-->
+			<div id="namecard" class="namecard">
+				<div class="shadow-img"></div>
+				<h2 class="maintitle">王云玲 </h2><!--PROFILE NAME-->
+				<h3 class="invert sub-maintitle">wyl
+					<span class="rotate">Homepage, Resume, Introduce</span><!--SUBTITLE AFTET NAME-->
+				</h3>
+				<img id="profile-img" class="profile-img transparent" src="images/profile-thum.png" alt="profile-image"><!--PROFILE IMAGE-->
+			</div><!--/#namecard-->
+			<!--menu-->
+			<div id="menu-container">
+				<!--PAGE MENU-->
+				<ul class="nav-menu no-padding">
+					<li class="nav-btn selected" title="Home" data-page="home">
+						<div class="hover-background"></div>
+						<span>首页</span><i class="fa fa-user fa-fw"></i>
+					</li>
+					<li class="nav-btn" id="resume-btn" title="Resume"  data-page="resume">
+						<div class="hover-background"></div>
+						<span>简历</span><i class="fa fa-file-text fa-fw"></i>
+					</li>
+				   <li class="nav-btn folio-btn" data-filter="*" title="Portfolio" data-page="portfolio">
+						<div class="hover-background"></div>
+						<span>荣誉和奖项</span><i class="fa fa-suitcase fa-fw"></i>
+					</li>
+					<li class="nav-btn" title="Contact" id="contact-link" data-page="contact">
+						<div class="hover-background"></div>
+						<span>教育背景</span><i class="fa fa-paper-plane fa-fw"></i>
+					</li>
+				</ul><!--/.nav-menu __PAGE MENU ENDS-->
+
+				<!--SOCIAL NAV MENU-->
+				<div class="social-menu-container">
+					<ul class="social-menu no-padding">                     
+						<li><a href=""><i class="fa fa-facebook"></i></a></li>
+						<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+						<li><a href=""><i class="fa fa-youtube"></i></a></li>
+						<li><a href=""><i class="fa fa-pinterest-p"></i></a></li>
+						<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div><!--/.social-menu-container-->
+			</div><!--#menu-container-->
+		</div>
+		<div class="col-sm-8 page-segment">
+			<ul class="page-container no-padding">
+				<!--HOME/PROFILE PAGE-->
+				<li id="home" class="selected">
+					<div class="title-container hidden">
+						<div class="shadow-img"></div> 
+						<h2 class="rotate-out">欢迎来到 <span class="invert">王云玲的个人主页</span></h2><!--HOME TITLE-->                          
+					</div>
+					<div class="description hidden">
+						<div class="watermark-home"></div> 
+
+						<div class="fade-text transparent">
+							<!--DESCRIPTION ON HOME-->
+							<div class="strong-text">王云玲， 女， 22岁 <span>大四</span></div>
+							<div class="focus-text"><span>石家庄铁道大学 & </span><span>软件工程专业</span></div>
+							<p class="large-paragraph">软件工程系学生，踏实努力，学习能力强，有上进心且能吃苦,热爱生活、热爱运动。熟悉java、python、c++等常用编程语言，了解基本的软件测试方法，能熟练使用常用的办公软件，具备良好的沟通能力与团队合作能力</p>         
+							<!--DESCRIPTION ON HOME ENDS-->
+						</div>
+
+						<!--ALL PERSONAL DETAILS-->
+						<h3 class="personal-info-title title">基本信息</h3>
+						<ul class="personal-info">
+							<li class="rotate-out rotated"><label>身高</label><span>158cm</span></li>                     
+							<li class="rotate-out rotated"><label>个人主页</label><span>https://wangyunling32.github.io/</span></li>
+							<li class="rotate-out rotated"><label>邮箱</label><span>814922595@qq.com</span></li>  
+							<li class="rotate-out rotated"><label>电话</label><span>13102845623</span></li>
+						</ul><!--/ul.personal-info-->
+					</div>
+				</li><!--/#home-->
+
+				<!--RESUME PAGE-->
+				<li id="resume" class="hidden">
+					<div class="title-container">
+						<div class="shadow-img"></div>
+						<h2 class="rotate-out rotated"><span class="invert">Hello</span> World!</h2> <!--RESUME TITLE-->
+					</div>
+					<div class="description">
+
+						<div class='tabs tabs_animate'>
+							<!--RESUME TAB LISTS-->
+							<ul class='horizontal no-padding'>
+								<li><a href="#tab-1" class="icon-bg icon-skills"><div>专业技能</div></a></li>
+								<li><a href="#tab-2" class="icon-bg icon-education"><div>项目经历</div></a></li>
+								<li><a href="#tab-3" class="icon-bg icon-employment"><div>实习培训</div></a></li>
+							</ul><!--RESUME TAB LISTS ENDS-->
+
+							<!--RESUME FIRST TAB/SKILL TAB DETAILS-->
+							<div id='tab-1'>
+								<h3 class="title">后端</h3><!--SKILLS WITH BAR DISPLAY-->
+								<ul class="skills-list no-padding">
+									<li class="row">
+										<div class="col-xs-2"><div class="fw-mid">Java</div></div>
+										<div class="col-xs-9">
+											<div class="bar">
+												<div class="percentage" id="bar1" style="width: 90%;"></div>
+											</div>
+										</div>
+									</li>
+									<li class="row">
+										<div class="col-xs-2"><div class="fw-mid">Python</div></div>
+										<div class="col-xs-9">
+											<div class="bar">
+												<div class="percentage" id="bar2" style="width: 85%;"></div>
+											</div>
+										</div>
+									</li>
+									<li class="row">
+										<div class="col-xs-2"><div class="fw-mid">C++</div></div>
+										<div class="col-xs-9">
+											<div class="bar">
+												<div class="percentage" id="bar3" style="width: 80%;"></div>
+											</div>
+										</div>
+									</li>
+									
+								</ul><!--SKILLS WITH BAR DISPLAY ENDS-->
+
+								<!--SKILLS WITH CIRCLE DISPLAY-->
+								<div class="circle-skill-container">
+									<h3 class="title">前端</h3>
+									<div class="row">
+										<div class="col-xs-4 center-align">
+											<div class="circle-bar" id="line-container1">
+												<div class="progressbar-text" id="progress-text1">0</div>
+											</div>
+											<h5>JSP</h5>
+										</div>
+										<div class="col-xs-4 center-align">
+											<div class="circle-bar" id="line-container2">
+												<div class="progressbar-text" id="progress-text2">0</div>
+											</div>
+											<h5>JavaScript</h5>
+										</div>
+										<div class="col-xs-4 center-align">
+											<div class="circle-bar" id="line-container3">
+												<div class="progressbar-text" id="progress-text3">0</div>
+											</div>
+											<h5>HTML/CSS</h5>
+										</div>
+									</div>
+								</div><!--SKILLS WITH CIRCLE DISPLAY ENDS-->
+							</div><!--RESUME FIRST TAB/SKILL TAB DETAILS ENDS-->
+							
+							<!--RESUME SECOND TAB/EDUCATION TAB DETAILS-->
+							<div id='tab-2'>
+								<h3 class="title">项目名称</h3>
+								<ul class="education-class">
+									<li>
+										<!--EDUCATION LIST ITEM-->
+										<h4 class="title">“领航”辅助自动驾驶系统<a href="https://github.com/wangyunling32/AuxiliaryAutomaticDrivingSystem" target="_blank">(github内查看)</a><i class="fa fa-sort-desc pull-right">展开</i></h4>
+										<div class="list-content">
+											<h5 class="title">技术栈：Python+OpenCV+微信小程序 <span class="list-year">(2019.5-2019.8)</span></h5>
+										  <h4><b>项目描述：</b>基于计算机视觉的辅助自动驾驶应用，能满足在驾驶员驾驶过程中 对环境中的车道线、交通信号灯、车辆进行检测和识别，并把检测结果反馈给 驾驶员，提醒驾驶员安全驾驶
+												<br><b>个人职责：</b>项目需求分析、部分后端代码编写、界面设计</h4>
+											<!--EDUCATION LIST DETAILS-->
+										</div>
+									</li>
+									<li>
+										<!--EDUCATION LIST ITEM-->
+										<h4 class="title">基于web端的信息化领域热词展示平台<a href="https://github.com/wangyunling32/HotWordsDisplayPlatform" target="_blank">(github内查看)</a><i class="fa fa-sort-desc pull-right">展开</i></h4>
+										<div class="list-content current">
+											<h5 class="title">技术栈：HTML 5+NLP+ECharts+MySQL+爬虫 <span class="list-year">(2018.9-2018.10)</span></h5>
+											<h4><b>项目描述：</b>从网络中爬取信息领域的相关热词，主要包括热词分类、热词查询、数据可视化展示、数据导出四方面的功能。<br>
+											  <b>个人职责：</b>项目需求分析、爬取网络数据、后端代码编写、可视化展示
+											</h4>
+											<!--EDUCATION LIST DETAILS-->
+										</div>
+									</li>
+									<li>
+										<!--EDUCATION LIST ITEM-->
+										<h4 class="title">河北省创新年报平台统计系统 <a href="https://github.com/wangyunling32/StatisticalSystemOfAnnualReportPlatform" target="_blank">(github内查看)</a><i class="fa fa-sort-desc pull-right">展开</i></h4>
+										<div class="list-content current">
+											<h5 class="title">技术栈：Jsp+Servlet+Oracle <span class="list-year">(2018.3-2018.5)</span></h5>
+											<h4><b>项目描述：</b>近年来，各行业对年报的填报工作量增多，需要简易的填写操作。 随着企业机构的增加，对数据的查找和统计更加复杂，需求量大，审核工作也 更加难以进行，本系统针对这些问题进行了设计
+											<br>
+											  <b>个人职责：</b>项目需求分析、后端代码编写
+											</h4>
+											<!--EDUCATION LIST DETAILS-->
+										</div>
+									</li>
+									<li>
+										<!--EDUCATION LIST ITEM-->
+										<h4 class="title">信息技术手册查重比对分析平台<a href="https://github.com/wangyunling32/DuplicateCheckingAndAnalysisPlatform" target="_blank">(github内查看)</a> <i class="fa fa-sort-desc pull-right">展开</i></h4>
+										<div class="list-content current">
+											<h5 class="title">技术栈：HTML 5+NLP+ECharts+MySQL+JS <span class="list-year">(2019.4-2019.5)</span></h5>
+											<h4><b>项目描述：</b>实现论文查重功能、关键字可视化展示、数据透视及分析等功能<br>
+											  <b>个人职责：</b>项目需求分析、后端代码编写、可视化展示
+											</h4>
+											<!--EDUCATION LIST DETAILS-->
+										</div>
+									</li>
+								</ul>
+							</div><!--RESUME SECOND TAB/EDUCATION TAB DETAILS ENDS-->
+							<!--RESUME THIRD TAB/EMPLYMENT TAB DETAILS ENDS-->
+							<div id='tab-3'>
+								<h3 class="title">实习经历</h3>
+								<ul class="employment-class tab-cont">
+									<li>
+										<!--EMPLOYMENT INDIVIDUAL LIST-->
+										<h4>新开普公司认识实习 <span class="year">2017.8 - 2017.9</span></h4>
+										</li>
+									<li>
+										<!--EMPLOYMENT INDIVIDUAL LIST-->
+										<h4>北京杰我教育公司WEB培训 <span class="year">2018.10 - 2018.11</span></h4>
+										</li>
+									<li>
+										<!--EMPLOYMENT INDIVIDUAL LIST-->
+										<h4>上海德拓信息技术公司大数据培训 <span class="year">2019.8 - 2019.9</span></h4>
+										</li>
+								</ul>
+							</div><!--RESUME THIRD TAB/EMPLYMENT TAB DETAILS ENDS-->
+						</div>
+					</div>
+				</li>
+				<!--/#resume-->
+				<!--PORTFOLIO PAGE-->
+				<li id="portfolio" class="hidden">
+					<div class="title-container">
+						<div class="shadow-img"></div>
+						<h2 class="rotate-out rotated">获奖情况</h2> <!--PORTFOLIO TITLE-->                         
+					</div>
+
+					<!--PORTFOLIO CATEGORY LIST-->    
+					<div class="abs-child">
+						<ul class="button-group filters-button-group">
+							<li class="button is-checked" data-filter="*">证书</li>
+						</ul><!--/.button-group filters-button-group-->
+					</div>
+					
+					<div class ="sec-porfolio description"> 
+						<div class="row">
+							<!--PORTFOLIO ITEM CONTAINER-->
+							<div class="folio-container">
+								<ul class="folio-item"><!--PORTFOLIO INDIVIDAUAL ITEM-->
+									<li class="view view-first photography">  
+										<img src="images/folio/rjb.jpg" alt="logs" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
+										<div class="mask">  
+											 <h2>“中国软件杯”全国三等奖</h2> <!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                               
+											<!-- Button trigger modal -->
+											<a role="button" class="info" data-toggle="modal" data-target="#myModal">查看详情</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+										 </div>  
+									</li>  
+									<li class="view view-second commercial"><!--PORTFOLIO INDIVIDAUAL ITEM-->
+									  <img src="images/folio/hlw+.jpg" alt="book" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
+										<div class="mask"></div>
+										<div class="content">
+											<h2>“互联网+”大赛铜奖</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                  
+											<a role="button" class="info" data-toggle="modal" data-target="#myModal2">查看详情</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+										</div>
+									</li>
+									<li class="view view-tenth photography"> <!--PORTFOLIO INDIVIDAUAL ITEM--> 
+										 <img src="images/folio/dyhb.jpg" alt="beach" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->  
+										 <div class="mask">  
+											 <h2>“调研河北”省级三等奖</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                    
+											 <a role="button" class="info" data-toggle="modal" data-target="#myModal3">查看详情</a>  <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+										 </div>  
+									</li>                         
+									<li class="view view-second commercial"><!--PORTFOLIO INDIVIDAUAL ITEM-->
+									  <img src="images/folio/tzb.jpg" alt="guy" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
+										<div class="mask"></div>
+										<div class="content">
+											<h2>“挑战杯”优秀奖</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                 
+											<a role="button" class="info" data-toggle="modal" data-target="#myModal4">查看详情</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+										</div>
+									</li> 
+														
+									<li class="view view-first potrait"><!--PORTFOLIO INDIVIDAUAL ITEM-->  
+										 <img src="images/folio/jxj.jpg" alt="illustration" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->   
+										 <div class="mask">  
+											 <h2>二等奖学金</h2>                                   
+											 <a role="button" class="info" data-toggle="modal" data-target="#myModal5">查看详情</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'--> 
+										 </div>  
+									</li>                         
+									<li class="view view-second photography"><!--PORTFOLIO INDIVIDAUAL ITEM-->
+									  <img src="images/folio/ms.jpg" alt="guy" /><!--PORTFOLIO INDIVIDAUAL ITEM IMAGE--> 
+										<div class="mask"></div>
+										<div class="content">
+											<h2>“民俗文化大赛”优秀奖</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                 
+											<a role="button" class="info" data-toggle="modal" data-target="#myModal6">查看详情</a><!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'-->
+										</div>
+									</li> 
+									<li class="view view-tenth potrait"> <!--PORTFOLIO INDIVIDAUAL ITEM--> 
+										<img src="images/folio/xxb.jpg" alt="logs" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->  
+										<div class="mask">  
+											 <h2>“信息杯”排球赛第一名</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                            
+											 <a role="button" class="info" data-toggle="modal" data-target="#myModal7">查看详情</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'--> 
+										 </div>  
+									</li>   
+									
+									<li class="view view-tenth commercial"><!--PORTFOLIO INDIVIDAUAL ITEM-->  
+										 <img src="images/folio/hygy.jpg" alt="beach" /> <!--PORTFOLIO INDIVIDAUAL ITEM IMAGE-->  
+										 <div class="mask">  
+											 <h2>优秀志愿者</h2><!--PORTFOLIO INDIVIDAUAL ITEM TITLE-->                                    
+											 <a role="button" class="info" data-toggle="modal" data-target="#myModal8">查看详情</a> <!--PORTFOLIO INDIVIDAUAL ITEM MODAL LINK BY 'data-target'--> 
+										 </div>  
+									</li>          
+									   
+																							
+											  
+								</ul>
+							</div>
+							<!--PORTFOLIO ITEM CONTAINER ENDS-->
+						</div>                          
+					</div>
+				</li><!--/#portfolio-->
+
+				<!--CONTACT PAGE-->
+				<li id="contact" class="hidden">
+					<div class="title-container" >
+						<div class="shadow-img"></div>               
+					   <h2 class="rotate-out rotated">教育经历</h2><!--CONTACT PAGE TITLE-->
+					</div>
+					<div class="description">                           
+						<div class="row">
+							<div class="col-sm-12">
+								<div >
+									<div id="map" style="width:100%;height:10px;"></div><!--GOOGLE MAP-->
+								</div>
+							</div>
+					
+
+						<div class="fade-text transparent">
+							<!--DESCRIPTION ON HOME-->
+							<div class="focus-text"><span>石家庄铁道大学 & </span><span>软件工程专业（本科）</span></div>
+							<p class="large-paragraph"><b>主修课程:</b>  软件测试技术、C语言、C++、JAVA、.NET、Python、数据结构、数据库原理、计算机网络、软件架构、软件过程与管理、UML建模、WEB程序设计、大数据技术（Hadoop、Spark）、操作系统、PHP、C#、WEB设计等</p>         
+							<!--DESCRIPTION ON HOME ENDS-->
+						</div>
+
+					</div>
+							<div class="col-sm-5">
+								<!--CONTACT DESCRIPTION-->
+								<h3 class="title">联系方式</h3>
+								
+								<h6 class="sm-title"><span class="address-icon"><i class="fa fa-phone"></i></span>13102845623</h6>
+								<h6 class="sm-title"><span class="address-icon"><i class="fa fa-envelope"></i></span>814922595@qq.com</h6>
+								<!--/CONTACT DESCRIPTION ENDS-->
+							</div>
+							                     
+								
+							</div>                          
+							
+						</div>
+					</div>
+				</li><!--/#contact-->
+			</ul> 
+
+			<div class="row mobile-nav-container">
+				<!--SOCIAL NAV FOR MOBILE-->
+				<ul class="mobile-social no-padding">
+					<li>Connect With Me</li>
+					<li><a href=""><i class="fa fa-facebook"></i></a></li>
+					<li><a href=""><i class="fa fa-google-plus"></i></a></li>
+					<li><a href=""><i class="fa fa-youtube"></i></a></li>
+					<li><a href=""><i class="fa fa-pinterest-p"></i></a></li>
+					<li><a href=""><i class="fa fa-linkedin"></i></a></li>
+				</ul><!--/.mobile-social-->
+			</div>               
+		</div><!--/.page-segment -->
+		<!--  <h6 class="copyright-text">Copyright © 2015 John Doe</h6> --> <!--if anyone wants copyright Texts--> 
+	</div>
+</div><!--/.container -->
+<div class="tlinks">Collect from <a href="https://www.cssmoban.com/" >网页模板</a></div>
+<!--PORTFOLIO IMAGE MODAL LIST-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">“中国软件杯”全国三等奖</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/rjb.jpg" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p> 第八届“中国软件杯”大学生软件设计大赛总决赛中获 本科、研究生及其它组 三等奖</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel2">“互联网+”大赛铜奖</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/hlw+.jpg" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>第四届“互联网+”大学生创新创业大赛 铜奖</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel3">“调研河北”省级三等奖</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/dyhb.jpg" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>2017-2018年度河北省大学生“调研河北”社会调查活动三等奖</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel4">“挑战杯”优秀奖</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/tzb.jpg" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>第二十届“挑战杯”课外科技学术作品竞赛优秀奖</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel5">二等奖学金</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/jxj.jpg" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>截至2019年4月，共获4次二等优秀学生奖学金</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel6">“民俗文化大赛”优秀奖</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/ms.jpg" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>第十届大学生民俗文化作品制作大赛 优秀奖</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+	<div class="modal fade" id="myModal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel7">“信息杯”排球赛第一名</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/xxb.jpg" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>石家庄铁道大学信息科学与技术学院2019年度“信息杯”排球赛 第一名</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+	
+	<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel8">优秀志愿者</h4><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<img src="images/folio/hygy.jpg" class="img-responsive" alt="modal-image"><!--PORTFOLIO MODAL IMAGE-->
+			</div>
+			<div class="modal-footer">
+				<div class="mf-content">
+					<p>“以你之名，为爱赠书”公益活动 优秀志愿者</p>
+				</div>                      
+			</div>
+		</div><!-- /.modal-content -->
+	</div>
+	<!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="subscribe_modal_1" tabindex="-1" role="dialog" aria-labelledby="subscribe_modal_1" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h2 class="modal-title">Thank You</h2><!--PORTFOLIO IMAGE TITLE-->
+			</div>
+			<div class="modal-body">
+				<div class="text-center mail-sucsess"><h3> <span>your mail has been sent</span></h3></div>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!--javascript files
+=============================================================-->
+<script type="text/javascript" src="js/jQueryTween-aio-min.js"></script> <!-- JQUERY Tween Plugin -->
+<script type="text/javascript" src="js/jquery.tabslet.min.js"></script> <!-- JQUERY Tab plugin-->     
+<script type="text/javascript" src="js/progressbar.min.js"></script> <!-- JQUERY Progressbar Plugin-->
+<script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script> <!-- JQUERY Text Rotator-->
+<script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- Bootstrap file-->
+<script src="https://ditu.google.cn/maps/api/js?key=AIzaSyBPNkCVoBW_Jzl6x-hgGU6e7QW1QMwKles"></script>
+<script type="text/javascript" src='js/isotope.pkgd.min.js'></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
